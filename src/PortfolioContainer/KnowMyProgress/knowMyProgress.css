@@ -1,0 +1,65 @@
+.connect-with-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.connect-with-me-parent {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.icons-container {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-buttons {
+  height: 75px;
+  width: 200px;
+  display: flex;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0px 20px -2px #1f2235;
+  border: 0px;
+}
+
+.linkedin-icon {
+  width: 250%;
+  height: 250%;
+}
+
+.github-icon {
+  width: 150%;
+  height: 150%;
+}
+
+.hackerrank-icon {
+  width: 250%;
+  height: 250%;
+}
+
+.leetcode-icon {
+  width: 110%;
+  height: 120%;
+}
+
+@media only screen and (max-width: 898px) {
+  .icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-buttons {
+    margin: 5px;
+  }
+}

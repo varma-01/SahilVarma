@@ -21,7 +21,7 @@ export default function Projects(props) {
     {
       title: "ECommerce Website using PHP",
       desc: "made using PHP, MySQL",
-      link: "",
+      link: "#",
       photo: phpImage,
     },
     {
@@ -33,7 +33,7 @@ export default function Projects(props) {
     {
       title: "Tesla Clone Android App",
       desc: "android application made using React Native",
-      link: "",
+      link: "#",
       photo: teslaImage,
     },
   ];
@@ -46,7 +46,12 @@ export default function Projects(props) {
         </div>
         <div className="project-description">
           <div className="project-title">
-            <a href={project.link} className="anchor-tag">
+            <a
+              href={project.link === "#" ? "" : project.link}
+              className="anchor-tag"
+              target={project.link === "#" ? "" : "_blank"}
+              rel="noreferrer"
+            >
               <span>{project.title}</span>
             </a>
           </div>

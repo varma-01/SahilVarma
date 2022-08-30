@@ -15,7 +15,7 @@
 }
 
 .header-logo {
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Poppins ExtraBold";
   color: var(--white);
 }
@@ -96,5 +96,11 @@
   .show-hamburger-options {
     left: 0;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .header-logo {
+    font-size: 33px;
   }
 }

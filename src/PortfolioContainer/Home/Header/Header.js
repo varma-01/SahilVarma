@@ -19,7 +19,7 @@ export default function Header() {
     let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
     if (screenIndex < 0) return;
   };
-
+  // eslint-disable-next-line
   let currentScreenSubscription =
     ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
@@ -70,7 +70,8 @@ export default function Header() {
             <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
           </div>
           <div className="header-logo">
-            <span>VARMA</span>
+            {/* <span>SAHIL</span> */}
+            <span>SAHIL VARMA</span>
           </div>
           <div
             className={

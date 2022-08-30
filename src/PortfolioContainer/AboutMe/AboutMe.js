@@ -19,7 +19,8 @@ export default function AboutMe(props) {
       "Full Stack Web Developer with background knowledge of MERN Stacks with Redux, along with a knack of building applications with utmost efficiency. Strong professional willing to be an asset for an organization",
     highlights: {
       bullets: [
-        "Full Stack Web and Mobile Applicatioin Development",
+        "Full Stack Web Development",
+        "Mobile App Development",
         "React and React Native",
         "DataBase Management",
       ],

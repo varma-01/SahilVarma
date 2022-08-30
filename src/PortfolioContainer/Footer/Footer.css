@@ -3,7 +3,12 @@
   width: 100%;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.footer-foot {
+  height: 100%;
 }
 .footer-parent {
   width: 100%;

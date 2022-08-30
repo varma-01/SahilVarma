@@ -26,13 +26,13 @@
 
 .project-card {
   margin: 10px;
-  height: 400px;
+  height: 450px;
   width: 300px;
   box-shadow: 0 0px 20px -2px #1f2235;
   cursor: pointer;
 }
 .project-photo {
-  height: 50%;
+  height: 40%;
   display: flex;
   object-fit: cover;
   overflow: hidden;
@@ -44,12 +44,13 @@
 
 .project-description {
   height: 50%;
-
-  padding: 4px;
+  padding: 8px;
+  text-align: justify;
 }
 
 .project-title {
   font-size: larger;
+  text-align: left;
   font-family: "Poppins SemiBold";
   padding: 6px 0 6px 4px;
   height: 35%;

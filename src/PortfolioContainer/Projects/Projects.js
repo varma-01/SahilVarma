@@ -19,14 +19,14 @@ export default function Projects(props) {
 
   const projectList = [
     {
-      title: "ECommerce Website using PHP",
-      desc: "made using PHP, MySQL",
+      title: "ElectroniKArt - ECommerce Website",
+      desc: "This is an E-commerce website using PHP that has database connectivity using MySQL. It has a Signup, login, logout, functionality, and filters to find products present in the database",
       link: "#",
       photo: phpImage,
     },
     {
       title: "Forkify - Food Recipe Webapp",
-      desc: "Front end website made using HTML, CSS, JavaScript",
+      desc: "This website follows MVC Architecture, which fetches recipe data from the MongoDB database, and displays results in pagination. People can log in to this website to upload their own recipe.",
       link: "https://forkify-varma.netlify.app/",
       photo: frokifyImage,
     },
@@ -68,7 +68,7 @@ export default function Projects(props) {
       <div className="projects-parent">
         <ScreenHeading
           title={"Projects"}
-          subHeading={"Porjects I have worked on"}
+          subHeading={"Projects I have worked on"}
         />
         <div className="projects-card-container">{renderProjectCards()}</div>
       </div>

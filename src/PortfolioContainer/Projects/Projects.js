@@ -64,7 +64,11 @@ export default function Projects(props) {
   };
 
   return (
-    <div className="projects-container screen-container" id={props.id || ""}>
+    <div
+      className="projects-container screen-container"
+      id={props.id || ""}
+      style="display: flex; justify-content: center;"
+    >
       <div className="projects-parent">
         <ScreenHeading
           title={"Projects"}

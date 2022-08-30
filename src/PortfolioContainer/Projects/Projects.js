@@ -7,6 +7,7 @@ import frokifyImage from "../../assets/Projects/forkify.png";
 import teslaImage from "../../assets/Projects/tesla.png";
 import phpImage from "../../assets/Projects/php-website.png";
 import "./Projects.css";
+import { faCentercode } from "@fortawesome/free-brands-svg-icons";
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -67,7 +68,7 @@ export default function Projects(props) {
     <div
       className="projects-container screen-container"
       id={props.id || ""}
-      style="display: flex; justify-content: center;"
+      style={{ display: "flex", justifyContent: "center" }}
     >
       <div className="projects-parent">
         <ScreenHeading

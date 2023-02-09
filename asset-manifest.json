@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/SahilVarma/static/css/main.fe46baae.css",
+    "main.js": "/SahilVarma/static/js/main.43983a8e.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/aboutMePhoto.JPG": "/SahilVarma/static/media/aboutMePhoto.87dbfaf624067f78491d.JPG",
+    "static/media/php-website.png": "/SahilVarma/static/media/php-website.ccf113b6b67a40c1840d.png",
+    "static/media/forkify.png": "/SahilVarma/static/media/forkify.228081710a8f9dd9b75b.png",
+    "static/media/profilephoto.jpg": "/SahilVarma/static/media/profilephoto.fe340fa91fce2f82681f.jpg",
+    "static/media/Poppins-Thin.ttf": "/SahilVarma/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/SahilVarma/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/SahilVarma/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/SahilVarma/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/SahilVarma/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/SahilVarma/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/SahilVarma/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/bg.jpg": "/SahilVarma/static/media/bg.d580cd375921d13ae60d.jpg",
+    "static/media/githubLogo.png": "/SahilVarma/static/media/githubLogo.1b6bd0e4b6626baba753.png",
+    "static/media/leetcodeLogo.png": "/SahilVarma/static/media/leetcodeLogo.3c7738884fccc3292a03.png",
+    "index.html": "/SahilVarma/index.html",
+    "static/media/programming-skills.svg": "/SahilVarma/static/media/programming-skills.3bdce3e65068107428a1.svg",
+    "static/media/projects.svg": "/SahilVarma/static/media/projects.471fe875d8cdcbe0bbc4.svg",
+    "static/media/interests.svg": "/SahilVarma/static/media/interests.311391e8b5ae1f2a7364.svg",
+    "static/media/education.svg": "/SahilVarma/static/media/education.9ed8b53812c3beb648e1.svg",
+    "static/media/work-history.svg": "/SahilVarma/static/media/work-history.f8127a79c81e4defe8bc.svg",
+    "main.fe46baae.css.map": "/SahilVarma/static/css/main.fe46baae.css.map",
+    "main.43983a8e.js.map": "/SahilVarma/static/js/main.43983a8e.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe46baae.css",
+    "static/js/main.43983a8e.js"
+  ]
+}

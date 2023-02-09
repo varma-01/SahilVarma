@@ -4,7 +4,7 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import frokifyImage from "../../assets/Projects/forkify.png";
-import teslaImage from "../../assets/Projects/tesla.png";
+import faceRecog from "../../assets/Projects/faceRecog.jpeg";
 import phpImage from "../../assets/Projects/php-website.png";
 import "./Projects.css";
 import { faCentercode } from "@fortawesome/free-brands-svg-icons";
@@ -20,6 +20,12 @@ export default function Projects(props) {
 
   const projectList = [
     {
+      title: "Face Recognition based Attendance System",
+      desc: "● Application built to simplify the attendance taking process using Machine Learning ● Powered by Python, OpenCV, Face-recognition ● Recognizes the faces and mark their attendance in CSV format",
+      link: "#",
+      photo: faceRecog,
+    },
+    {
       title: "ElectroniKArt - ECommerce Website",
       desc: "This is an E-commerce website using PHP that has database connectivity using MySQL. It has a Signup, login, logout, functionality, and filters to find products present in the database",
       link: "#",
@@ -30,12 +36,6 @@ export default function Projects(props) {
       desc: "This website follows MVC Architecture, which fetches recipe data from the MongoDB database, and displays results in pagination. People can log in to this website to upload their own recipe.",
       link: "https://forkify-varma.netlify.app/",
       photo: frokifyImage,
-    },
-    {
-      title: "Tesla Clone Android App",
-      desc: "android application made using React Native",
-      link: "#",
-      photo: teslaImage,
     },
   ];
 

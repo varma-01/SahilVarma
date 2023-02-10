@@ -74,6 +74,13 @@ export default function Resume(props) {
 
   const projectDetails = [
     {
+      title: "Face Recognition based Attendance System",
+      duration: { fromDate: "2022", toDate: "2023" },
+      description:
+        "System recognizes faces from already maintained database and marks attendance in csv format",
+      subHeading: "Tech used: Python, OpenCV",
+    },
+    {
       title: "E Commerce Website",
       duration: { fromDate: "2020", toDate: "2021" },
       description: "E commerce website made for electronic gadgets",
@@ -86,30 +93,24 @@ export default function Resume(props) {
         "Food recipe webapp made using NodeJS, MongoDb, HTML, CSS, JavaScript",
       subHeading: "Tech used: NodeJs, MongoDB",
     },
-    {
-      title: "Tesla Clone android app",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description: "Made Tesla app in react Native",
-      subHeading: "Tech used: React Native, JavaScript",
-    },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"Medicaps University"}
+        heading={"Medicaps University (CGPA: 8.8)"}
         subHeading={"B.Tech in Computer Science Engineering"}
         fromDate={"2019"}
         toDate={"2023"}
       />
       <ResumeHeading
-        heading={"Gyan Sagar Vidya Niketan"}
+        heading={"Gyan Sagar Vidya Niketan (CGPA: 8)"}
         subHeading={"Senior Secondary School"}
         fromDate={"2018"}
         toDate={"2019"}
       />
       <ResumeHeading
-        heading={"St. Norbert School"}
+        heading={"St. Norbert School (CGPA: 9.2)"}
         subHeading={"High School"}
         fromDate={"2016"}
         toDate={"2017"}

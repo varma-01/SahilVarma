@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SahilVarma/static/css/main.fe46baae.css",
-    "main.js": "/SahilVarma/static/js/main.43983a8e.js",
+    "main.js": "/SahilVarma/static/js/main.9cdd6e8f.js",
     "static/js/787.c4e7f8f9.chunk.js": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js",
     "static/media/aboutMePhoto.JPG": "/SahilVarma/static/media/aboutMePhoto.87dbfaf624067f78491d.JPG",
     "static/media/php-website.png": "/SahilVarma/static/media/php-website.ccf113b6b67a40c1840d.png",
@@ -24,11 +24,11 @@
     "static/media/education.svg": "/SahilVarma/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/SahilVarma/static/media/work-history.f8127a79c81e4defe8bc.svg",
     "main.fe46baae.css.map": "/SahilVarma/static/css/main.fe46baae.css.map",
-    "main.43983a8e.js.map": "/SahilVarma/static/js/main.43983a8e.js.map",
+    "main.9cdd6e8f.js.map": "/SahilVarma/static/js/main.9cdd6e8f.js.map",
     "787.c4e7f8f9.chunk.js.map": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe46baae.css",
-    "static/js/main.43983a8e.js"
+    "static/js/main.9cdd6e8f.js"
   ]
 }

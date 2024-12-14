@@ -44,12 +44,13 @@
   font-size: 18px;
   margin: 0 0 5px 0;
 }
-
+/* 
 .highlight {
-  display: flex;
+  display:flex;
   align-items: center;
   margin: 5px 0;
   font-size: 15px;
+  background-color: aqua;
 }
 
 .highlight-blob {
@@ -57,6 +58,34 @@
   width: 12px;
   margin: 0 10px 0 0;
   background-color: #ff5823;
+} */
+.highlight {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppoins Bold";
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.highlight-header {
+  display: flex;
+  align-items: center;
+  font-family: "Poppoins Bold";
+}
+
+.highlight-blob {
+  height: 12px;
+  width: 12px;
+  margin-right: 10px;
+  background-color: #ff5823;
+}
+
+.highlight-heading {
+  font-weight: bold;
+}
+
+.highlight-description {
+  margin-left: 22px;
 }
 
 .about-me-options .highlighted-btn {

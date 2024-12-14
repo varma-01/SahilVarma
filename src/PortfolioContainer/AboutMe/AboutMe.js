@@ -16,26 +16,45 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full Stack Web Developer with background knowledge of MERN Stacks with Redux, along with a knack of building applications with utmost efficiency. Strong professional willing to be an asset for an organization",
+      "I’m Sahil Varma, a Computer Science graduate student at the University of Georgia. I specialize in software development, machine learning, and cloud technologies, with experience in Java, Python, C++, and SQL. My passion lies in building scalable solutions and optimizing performance. Always eager to learn and tackle new challenges, I strive to make an impact through innovative projects and collaboration.",
     highlights: {
-      bullets: [
-        "Full Stack Web Development",
-        "Mobile App Development",
-        "React and React Native",
-        "DataBase Management",
-      ],
       heading: "Here are a few Highlights",
+      bullets: [
+        "Software Development: Proficient in Java, Python, C++, and SQL. Hands-on with both front-end and back-end technologies.",
+        "Machine Learning: Experience with model optimization and deep learning techniques",
+        "Cloud Computing: Skilled in deploying applications on AWS.",
+        "Database Management: Expertise in MySQL, PostgreSQL, and NoSQL databases.",
+      ],
     },
   };
 
+  // const renderHighlight = () => {
+  //   return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
+  //     <div className="highlight" key={i}>
+  //       <div className="highlight-blob"></div>
+  //       <span>{value}</span>
+  //     </div>
+  //   ));
+  // };
+
   const renderHighlight = () => {
-    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
-      <div className="highlight" key={i}>
-        <div className="highlight-blob"></div>
-        <span>{value}</span>
-      </div>
-    ));
+    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => {
+      // Split the heading from the description part (before the first colon)
+      const [heading, description] = value.split(':');
+      return (
+        <div className="highlight" key={i}>
+          <div className="highlight-header">
+            <div className="highlight-blob"></div>
+            <span className="highlight-heading">{heading}:</span>
+          </div>
+          <div className="highlight-description">
+            <span>{description}</span>
+          </div>
+        </div>
+      );
+    });
   };
+  
   return (
     <div className="about-me-container screen-container" id={props.id || ""}>
       <div className="about-me-parent">

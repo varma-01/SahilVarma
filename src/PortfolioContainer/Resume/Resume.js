@@ -54,66 +54,72 @@ export default function Resume(props) {
       label: "Projects",
       logoSrc: "projects.svg",
     },
-    {
-      label: "Interests",
-      logoSrc: "interests.svg",
-    },
   ];
 
   const programmingSkillsDetails = [
-    { skill: "AWS", ratingPercentage: 85 },
-    { skill: "Web Dev", ratingPercentage: 85 },
-    { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "NodeJS", ratingPercentage: 85 },
-    { skill: "ReactJS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "MongoDB", ratingPercentage: 85 },
-    { skill: "DSA", ratingPercentage: 85 },
-    { skill: "Core Java", ratingPercentage: 85 },
+    {
+      skill: "Programming Languages",
+      desc: "C, C++, Java, Python, JavaScript, SQL",
+    },
+    { skill: "Operating Systems", desc: "Windows, macOS, Linux" },
+    {
+      skill: "Databases",
+      desc: " MySQL, PostgreSQL, NoSQL: MongoDB, DynamoDB",
+    },
+    {
+      skill: "Softwares",
+      desc: "Visual Studio Code, IntelliJ IDEA, MS Office",
+    },
+    { skill: "Frameworks", desc: "ReactJS, NodeJS, Spring Boot" },
+    { skill: "Cloud", desc: "Amazon Web Services" },
+    { skill: "Problem Solving", desc: "LeetCode, GeeksforGeeks" },
   ];
 
   const projectDetails = [
     {
-      title: "Face Recognition based Attendance System",
+      title: "Deep Learning Model Optimization",
       duration: { fromDate: "2022", toDate: "2023" },
       description:
-        "System recognizes faces from already maintained database and marks attendance in csv format",
-      subHeading: "Tech used: Python, OpenCV",
+        "Implemented pruning techniques to optimize convolutional neural networks by up to 80% while maintaining high accuracy, conducted fine-tuning and retraining to minimize performance degradation, and visualized pruning outcomes to validate improved model efficiency.",
+      subHeading: "Tech used: PyTorch, NumPy, YAML",
     },
     {
-      title: "E Commerce Website",
+      title: "Multithreaded FTP Client and Server",
       duration: { fromDate: "2020", toDate: "2021" },
-      description: "E commerce website made for electronic gadgets",
-      subHeading: "Tech used: PHP, MYSQL, Bootstrap",
+      description:
+        "Developed a multithreaded FTP client and server supporting commands like get, put, delete, and terminate, implemented multi-port handling and thread-safe mechanisms for concurrency and data consistency, and enhanced client functionality to execute commands in parallel threads for efficient multitasking.",
+      subHeading: "Tech used: Java, Multithreading, Socket Programming",
     },
     {
-      title: "Forkify: Food Recipe WebApp",
+      title: "Face Recognition based Attendance System",
       duration: { fromDate: "2021", toDate: "2021" },
       description:
-        "Food recipe webapp made using NodeJS, MongoDb, HTML, CSS, JavaScript",
-      subHeading: "Tech used: NodeJs, MongoDB",
+        "System recognizes faces from already maintained database and marks attendance in csv format. Feature to feed data for new person.",
+      subHeading: "Tech used: Python, OpenCV",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"Medicaps University (CGPA: 8.8)"}
-        subHeading={"B.Tech in Computer Science Engineering"}
-        fromDate={"2019"}
+        heading={"Univeristy of Georgia | Athens, GA, US | GPA: 3.89"}
+        subHeading={
+          "Franklin College of Arts and Sciences | MS in Computer Science"
+        }
+        description={
+          "Completed coursework in advanced topics such as algorithms, operating systems, distributed systems, computer-vision, database management, and machine learning."
+        }
+        fromDate={"May"}
+        toDate={"2025"}
+      />
+      <ResumeHeading
+        heading={"Medicaps University | Indore, India | GPA: 3.8"}
+        subHeading={
+          "College of Engineering | B.Tech in Computer Science Engineering"
+        }
+        description={""}
+        fromDate={"Aug"}
         toDate={"2023"}
-      />
-      <ResumeHeading
-        heading={"Gyan Sagar Vidya Niketan (CGPA: 8)"}
-        subHeading={"Senior Secondary School"}
-        fromDate={"2018"}
-        toDate={"2019"}
-      />
-      <ResumeHeading
-        heading={"St. Norbert School (CGPA: 9.2)"}
-        subHeading={"High School"}
-        fromDate={"2016"}
-        toDate={"2017"}
       />
     </div>,
     <div
@@ -121,16 +127,11 @@ export default function Resume(props) {
       key="programming-skills"
     >
       {programmingSkillsDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage">
-            <div
-              style={{ width: skill.ratingPercentage + "%" }}
-              className="active-percentage-bar"
-            ></div>
-          </div>
-        </div>
+        <ResumeHeading
+          key={index}
+          heading={skill.skill}
+          description={skill.desc}
+        />
       ))}
     </div>,
 
@@ -145,17 +146,6 @@ export default function Resume(props) {
           toDate={projectDetails.toDate}
         />
       ))}
-    </div>,
-    <div className="resume-screen-container" key="interests">
-      <ResumeHeading
-        heading="Gaming"
-        description="Computer Games, Open World games, racing games"
-      />
-      <ResumeHeading heading="Music" description="Listening Music" />
-      <ResumeHeading
-        heading="Travelling"
-        description="Travelling to different places by Bike or Car"
-      />
     </div>,
   ];
 

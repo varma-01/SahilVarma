@@ -25,11 +25,11 @@ export default function Profile() {
                   steps={[
                     "Enthusiastic Dev",
                     2000,
-                    "MERN Stack Dev",
+                    "Machine Learning",
                     2000,
                     "Full-Stack Dev",
                     2000,
-                    "Native Application Dev",
+                    "Solution Architect",
                     2000,
                     "DSA enthusiast",
                     2000,
@@ -37,8 +37,8 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building Applications with front and back end
-                Operations.
+                Skilled in Building Full-Stack Applications with Cloud
+                Integration and Machine Learning Capabilities
               </span>
             </span>
             <div className="profile-options">

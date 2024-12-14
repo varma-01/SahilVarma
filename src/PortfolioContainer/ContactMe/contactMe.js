@@ -16,11 +16,19 @@ export default function contactMe() {
           </div>
           <div className="phone-num-container">
             <span className="heading">Mobile:</span>
-            <span className="value">7987952805</span>
+            <span className="value">+1 2096307563</span>
           </div>
-          <div>
-            <span className="heading">Alt. Mobile:</span>
-            <span className="value">7415866964</span>
+          <div className="phone-num-container">
+            <span className="heading">LinkedIn: </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/sahil-varma-a65615236/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click Here
+              </a>
+            </span>
           </div>
         </div>
       </div>

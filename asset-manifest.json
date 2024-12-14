@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/SahilVarma/static/css/main.fe46baae.css",
-    "main.js": "/SahilVarma/static/js/main.9cdd6e8f.js",
+    "main.css": "/SahilVarma/static/css/main.f7bd6eec.css",
+    "main.js": "/SahilVarma/static/js/main.a8aa28de.js",
     "static/js/787.c4e7f8f9.chunk.js": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js",
     "static/media/aboutMePhoto.JPG": "/SahilVarma/static/media/aboutMePhoto.87dbfaf624067f78491d.JPG",
-    "static/media/php-website.png": "/SahilVarma/static/media/php-website.ccf113b6b67a40c1840d.png",
-    "static/media/forkify.png": "/SahilVarma/static/media/forkify.228081710a8f9dd9b75b.png",
     "static/media/profilephoto.jpg": "/SahilVarma/static/media/profilephoto.fe340fa91fce2f82681f.jpg",
     "static/media/Poppins-Thin.ttf": "/SahilVarma/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/SahilVarma/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -23,12 +21,12 @@
     "static/media/interests.svg": "/SahilVarma/static/media/interests.311391e8b5ae1f2a7364.svg",
     "static/media/education.svg": "/SahilVarma/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/SahilVarma/static/media/work-history.f8127a79c81e4defe8bc.svg",
-    "main.fe46baae.css.map": "/SahilVarma/static/css/main.fe46baae.css.map",
-    "main.9cdd6e8f.js.map": "/SahilVarma/static/js/main.9cdd6e8f.js.map",
+    "main.f7bd6eec.css.map": "/SahilVarma/static/css/main.f7bd6eec.css.map",
+    "main.a8aa28de.js.map": "/SahilVarma/static/js/main.a8aa28de.js.map",
     "787.c4e7f8f9.chunk.js.map": "/SahilVarma/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe46baae.css",
-    "static/js/main.9cdd6e8f.js"
+    "static/css/main.f7bd6eec.css",
+    "static/js/main.a8aa28de.js"
   ]
 }
